@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/TerrainDef[@Name="FloorBase"]/resourcesFractionWhenDeconstructed</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[@Name="FloorBase"]</xpath>
+      <value>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/TerrainDef[@Name="FloorBase"]/resourcesFractionWhenDeconstructed</xpath>
+      <value>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[@Name="BuildingBase"]/resourcesFractionWhenDeconstructed</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[@Name="BuildingBase"]</xpath>
+      <value>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[@Name="BuildingBase"]/resourcesFractionWhenDeconstructed</xpath>
+      <value>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>
