@@ -5,19 +5,10 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <packageId>neceros.ninetyninepercent</packageId>
   <description>Typically, deconstructing a building or facility refunds roughly 75% of the raw materials that went into building it.
 
-This mod changes the game to refund you 99% of the resources that went into your constructions. The game has a hardcoded limitation that requires at least one material each be lost in deconstruction.
-
-[b]➸[/b] If you build and deconstruct an item that costs 50 steel and 2 components, you will get back 49 steel and 1 component.
-
-
-HUGE thanks to BrokenValkyrie on the Ludeon forums for showing me the right way and writing the Harmony patch.
-
-
-
-[h1]Would you rather have 100%?[/h1]
-Use 99% with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1543064443]Deconstruct Return Fix[/url] along side to return everything!</description>
+This mod changes the game to refund you 100% of the things. Yeah, I know it's called 99 percent just don't ask.</description>
 </ModMetaData>
